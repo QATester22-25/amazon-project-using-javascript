@@ -11,6 +11,7 @@ cart.forEach((cartItem) => {
     (product) => product.id === productId
   );
 
+  //generate HTML
   matchingProduct.forEach((product) => {
     cartSummaryHtml += `
   <div class="cart-item-container
